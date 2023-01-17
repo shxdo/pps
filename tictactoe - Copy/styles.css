@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+.content{
+    width: 600px;
+    height: 610px;
+    display: flex;
+    margin: 50px;
+    background-color: lightgrey;
+}
+
+.row_one, .row_two, .row_three{
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-flex;
+    margin: 0px;
+}
+
+.one, .two, .three{
+    display: inline-flex;
+}
+
+.four, .five, .seven{
+    display: inline-flex;
+}
+
+.seven, .eight, .nine{
+    display: inline-flex;
+}
+
+
+.o {
+    display: none;
+}
+
+.x {
+}
